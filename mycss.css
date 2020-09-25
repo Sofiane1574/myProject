@@ -1,0 +1,35 @@
+
+	body { 
+     background-color: purple;  
+     font-size:16px;
+     display: block;
+   }
+   nav  {text-align: center;color:cyan;font-size:2.5em;text-decoration: underline;display:block;padding-bottom: 80px; }
+   div {width:31%;height:120px;border:2px solid cyan;background-color: yellow;float:left;margin: 5px;}
+   a {float:right;float: top;padding:3px;margin:-2px -2px 2px 2px;border:2px solid cyan;color:magenta;font-size: 20px;background-color: black;}
+   p {position: relative;bottom:-50%;margin:0px 6px 7px 10px;color:black;}
+  
+@media (min-width:992px ) {
+     { 
+  width:1em;
+     }
+
+}
+ @media (min-width:768px ) and (max-width: 991px){
+    div { width:48%;
+      float:left;
+      /*color:magenta;*/
+      }
+      article > div {
+        width:98%;
+      }
+}
+ @media (max-width: 767px) { 
+    div {
+      width: 90%;
+      margin:4px 4% 4px 4%;
+      float:left;
+      clear:both;
+      
+    }
+ }
